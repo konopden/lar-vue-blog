@@ -1,0 +1,33 @@
+@import 'bootstrap/bootstrap';
+@import 'bootstrap/variables';
+@import '_variables';
+
+// Font-awesome
+@import 'node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/brands';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/solid';
+
+@import 'admin-panel/form';
+@import 'admin-panel/toggle';
+@import '~toastr';
+.fa-spin{
+    opacity: 0.2;
+}
+.loader {
+    position: fixed;
+    left: 50%;
+    top:25%;
+    z-index: 999;
+    transform: translate(-50%, 0);
+}
+[v-cloak] {
+    display: none;
+}
+
+.width-3-percent {
+    width: 5%;
+}
+.width-10-percent {
+    width: 10%;
+}
